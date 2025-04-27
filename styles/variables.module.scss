@@ -1,0 +1,24 @@
+$light-green: #e8f5e9;
+$light-pink: #ffe0e5;
+$light-blue: #e0f7fa;
+$light-purple: #f3e5f5;
+$light-yellow: #fff8e1;
+
+$dark-green: #388e3c;
+$dark-pink: #c2185b;
+$dark-blue: #0288d1;
+$dark-purple: #512da8;
+$dark-yellow: #f9a825;
+
+:export {
+  lightgreen: $light-green;
+  lightpink: $light-pink;
+  lightblue: $light-blue;
+  lightpurple: $light-purple;
+  lightyellow: $light-yellow;
+  darkgreen: $dark-green;
+  darkpink: $dark-pink;
+  darkblue: $dark-blue;
+  darkpurple: $dark-purple;
+  darkyellow: $dark-yellow;
+}
