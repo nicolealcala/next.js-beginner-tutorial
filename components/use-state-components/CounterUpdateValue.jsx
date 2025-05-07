@@ -5,18 +5,17 @@ const CounterValue = () => {
 
   const handleIncrement = () => {
     console.warn("From Counter Value");
+
     // Using count snapshot
     setCount(count + 1);
-    console.log("After first setCount: ", count); // Old Count value
-    setCount(count + 1);
-    console.log("After second setCount: ", count); // Old Count value
+    console.log("After first setCount: ", count); // Old value
   };
 
   const handleReset = () => {
     setCount(0);
   };
 
-  console.log("Rendered Count Value: ", count); // New Count Value
+  console.log("Rendered Count Value: ", count); // Updated Count Value
   return (
     <div className="flex flex-col items-center">
       <p className="w-full text-center bg-blue-300 text-black p-2 rounded">
