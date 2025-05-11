@@ -1,4 +1,5 @@
 import MemoComponent from "@/components/react-memo-components/MemoComponent'";
+import ComponentA from "@/components/use-context-components/ComponentA";
 import UseEffectDataFetching from "@/components/use-effect-components/DataFetching";
 import UseEffectCompoonent from "@/components/use-effect-components/Listener";
 import CounterFunction from "@/components/use-state-components/CounterUpdateFunction";
@@ -11,7 +12,8 @@ export default function Home() {
       {/* <CounterFunction /> */}
       {/* <MemoComponent /> */}
       {/* <UseEffectCompoonent /> */}
-      <UseEffectDataFetching />
+      {/* <UseEffectDataFetching /> */}
+      <ComponentA />
     </main>
   );
 }
