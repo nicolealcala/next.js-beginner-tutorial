@@ -3,7 +3,7 @@ import styles from "@/styles/spinner.module.scss";
 const Spinner = () => {
   return (
     <div className={styles.spinnerWrapper}>
-      <div className={styles} />
+      <div className={styles.spinner} />
     </div>
   );
 };

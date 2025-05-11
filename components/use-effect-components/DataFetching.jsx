@@ -25,21 +25,20 @@ function UseEffectDataFetching() {
   };
 
   useEffect(() => {
-    fetch("https://randomuser.me/api/?results=5")
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data);
-        setUsers(data.results);
-      })
-      .catch((e) => {
-        console.error(e);
-      })
-      .finally(setIsLoading(false));
+    setTimeout(() => {
+      fetch("https://randomuser.me/api/?results=5")
+        .then((res) => res.json())
+        .then((data) => {
+          console.log(data);
+          setUsers(data.results);
+        })
+        .catch((e) => {
+          console.error(e);
+        })
+        .finally(setIsLoading(false));
+    }, [3000]);
   }, []);
 
-  useEffect(() => {
-    console.log("User:", users);
-  }, [users]);
   return (
     <div className="flex flex-col gap-y-3">
       {isLoading ? (
