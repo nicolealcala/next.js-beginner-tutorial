@@ -1,4 +1,4 @@
-import MemoComponent from "@/components/react-memo-components/MemoComponent'";
+import MemoComponent from "@/components/react-memo-components/MemoComponent";
 import ComponentA from "@/components/use-context-components/ComponentA";
 import UseEffectDataFetching from "@/components/use-effect-components/DataFetching";
 import UseEffectCompoonent from "@/components/use-effect-components/Listener";
@@ -15,7 +15,7 @@ export default function Home() {
       {/* <UseEffectCompoonent /> */}
       {/* <UseEffectDataFetching /> */}
       {/* <ComponentA /> */}
-      <MemoCallbackComponent />
+      {/* <MemoCallbackComponent /> */}
     </main>
   );
 }
