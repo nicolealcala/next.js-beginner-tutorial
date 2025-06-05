@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 const UseEffectListener = () => {
   const [height, setHeight] = useState(0);
   const [width, setWidth] = useState(0);
+  
   useEffect(() => {
     const handleResize = () => {
       setHeight(window.innerHeight);

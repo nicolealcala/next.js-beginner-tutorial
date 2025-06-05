@@ -4,6 +4,7 @@ import UseEffectDataFetching from "@/components/use-effect-components/DataFetchi
 import UseEffectCompoonent from "@/components/use-effect-components/Listener";
 import CounterFunction from "@/components/use-state-components/CounterUpdateFunction";
 import CounterValue from "@/components/use-state-components/CounterUpdateValue";
+import MemoCallbackComponent from "@/components/use-memo-callback-components/MemoCallbackComponent";
 
 export default function Home() {
   return (
@@ -13,7 +14,8 @@ export default function Home() {
       {/* <MemoComponent /> */}
       {/* <UseEffectCompoonent /> */}
       {/* <UseEffectDataFetching /> */}
-      <ComponentA />
+      {/* <ComponentA /> */}
+      <MemoCallbackComponent />
     </main>
   );
 }
